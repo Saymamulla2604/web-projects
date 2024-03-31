@@ -1,0 +1,32 @@
+body {
+    background-color: #212121;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.center {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#clock {
+    font-size: 40px;
+    background-color: rgb(84, 32, 189);
+    padding: 20px 50px;
+    margin-top: 20px;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    box-shadow: 2px 2px 20px rgb(84, 32, 189);
+    font-weight: bold;
+
+}
+
+#banner span {
+    font-size: 16px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    opacity: 0.8;
+}
