@@ -1,0 +1,375 @@
+.home-page-child {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-crimson);
+  position: absolute;
+  top: 3202px;
+  left: 579px;
+  border-radius: var(--br-5xs);
+  width: 283px;
+  height: 81px;
+}
+.home-page-inner,
+.home-page-item {
+  position: absolute;
+  top: 883px;
+  left: 0;
+  width: 1442px;
+  height: 1392px;
+}
+.home-page-inner {
+  top: 0;
+  width: 1440px;
+  height: 147px;
+}
+.text,
+.text1 {
+  position: absolute;
+  top: 33px;
+  left: 239px;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: left;
+}
+.text1 {
+  top: 40px;
+  left: 335px;
+  font-size: var(--font-size-xs);
+}
+.sayma-mulla {
+  top: 460px;
+  left: 61px;
+  font-size: 196px;
+  display: inline-block;
+  width: 1321px;
+  height: 414px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  mix-blend-mode: overlay;
+}
+.aspiring-full-stack,
+.hello-i-am,
+.sayma-mulla {
+  margin: 0;
+  position: absolute;
+  letter-spacing: 0.04em;
+  line-height: 122.01%;
+  font-weight: 700;
+  font-family: inherit;
+}
+.aspiring-full-stack {
+  top: 728px;
+  left: 839px;
+  font-size: inherit;
+  display: inline-block;
+  width: 542px;
+  height: 48px;
+}
+.hello-i-am {
+  top: 337px;
+  left: 96px;
+  font-size: 96px;
+  mix-blend-mode: difference;
+}
+.ellipse-icon,
+.line-icon {
+  position: absolute;
+  top: 869.37px;
+  left: 0;
+  width: 1445.81px;
+  height: 113.6px;
+}
+.ellipse-icon {
+  top: 969.33px;
+  left: 277.53px;
+  width: 21.03px;
+  height: 21.03px;
+}
+.home-page-child1 {
+  position: absolute;
+  top: 896.24px;
+  left: 631.98px;
+  width: 20.03px;
+  height: 20.03px;
+}
+.home-page-child2 {
+  position: absolute;
+  top: 952.31px;
+  left: 972.41px;
+  width: 17.02px;
+  height: 17.02px;
+}
+.home-page-child3 {
+  position: absolute;
+  top: 931.28px;
+  left: 1115.59px;
+  width: 22.03px;
+  height: 22.03px;
+}
+.home-page-child4 {
+  position: absolute;
+  top: 875.21px;
+  left: 1253.76px;
+  width: 19.02px;
+  height: 19.02px;
+}
+.home-page-child5 {
+  position: absolute;
+  top: 931.28px;
+  left: 794.18px;
+  width: 21.03px;
+  height: 21.03px;
+}
+.home-page-child6,
+.skills {
+  position: absolute;
+  top: 896.24px;
+  left: 125.34px;
+  width: 20.03px;
+  height: 20.03px;
+}
+.skills {
+  margin: 0;
+  top: 1013.38px;
+  left: 257.51px;
+  font-size: 96.12px;
+  letter-spacing: 0.04em;
+  line-height: 122.01%;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  width: 880.1px;
+  height: 115.14px;
+  mix-blend-mode: hard-light;
+}
+.css-logo-1 {
+  position: absolute;
+  top: 1182px;
+  left: 428px;
+  width: 203px;
+  height: 213.01px;
+  object-fit: cover;
+}
+.bootstrap-logo-1-icon,
+.javascript-js-logo-2949701702-icon {
+  position: absolute;
+  top: 1182px;
+  left: 720px;
+  width: 201.43px;
+  height: 213px;
+  object-fit: cover;
+}
+.bootstrap-logo-1-icon {
+  top: 1181px;
+  left: 1026px;
+  width: 264.6px;
+  height: 214px;
+}
+.mysql-logo-1-icon,
+.php-logo-1000x1000-1-icon {
+  position: absolute;
+  top: 1488px;
+  left: 75px;
+  width: 276px;
+  height: 289.43px;
+  object-fit: cover;
+}
+.mysql-logo-1-icon {
+  top: 1513px;
+  left: 410px;
+  width: 241.07px;
+  height: 239.91px;
+}
+.communityicon-c6mtvgj38ki31-1,
+.oip-1-icon {
+  position: absolute;
+  top: 1522px;
+  left: 703px;
+  width: 236px;
+  height: 231.44px;
+  object-fit: cover;
+}
+.oip-1-icon {
+  top: 1520px;
+  left: 1063px;
+  width: 190.2px;
+  height: 225.75px;
+}
+.figma-1-logo-png-transparent-1-icon {
+  position: absolute;
+  top: 1859px;
+  left: 92px;
+  width: 193.33px;
+  height: 290.29px;
+  object-fit: cover;
+}
+.home-page-child7 {
+  position: absolute;
+  top: 2163.65px;
+  left: 0;
+  width: 1445.81px;
+  height: 113.6px;
+}
+.home-page-child8 {
+  position: absolute;
+  top: 2264px;
+  left: 285px;
+  width: 21.03px;
+  height: 21.03px;
+}
+.home-page-child9 {
+  position: absolute;
+  top: 2189px;
+  left: 631px;
+  width: 20.03px;
+  height: 20.03px;
+}
+.home-page-child10 {
+  position: absolute;
+  top: 2247px;
+  left: 977px;
+  width: 17.02px;
+  height: 17.02px;
+}
+.home-page-child11 {
+  position: absolute;
+  top: 2226px;
+  left: 1124px;
+  width: 22.03px;
+  height: 22.03px;
+}
+.home-page-child12 {
+  position: absolute;
+  top: 2167px;
+  left: 1263px;
+  width: 19.02px;
+  height: 19.02px;
+}
+.home-page-child13 {
+  position: absolute;
+  top: 2226px;
+  left: 796px;
+  width: 21.03px;
+  height: 21.03px;
+}
+.home-page-child14,
+.projects {
+  position: absolute;
+  top: 2189px;
+  left: 132px;
+  width: 20.03px;
+  height: 20.03px;
+}
+.projects {
+  margin: 0;
+  top: 2347px;
+  left: 378px;
+  font-size: 96.12px;
+  letter-spacing: 0.04em;
+  line-height: 122.01%;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  width: 703px;
+  height: 126px;
+}
+.screenshot-28-1 {
+  position: absolute;
+  top: 2573px;
+  left: 332px;
+  width: 803px;
+  height: 452px;
+  object-fit: cover;
+}
+.preschool-website-curriculum {
+  margin: 0;
+  position: absolute;
+  top: 3082px;
+  left: 145px;
+  letter-spacing: 0.04em;
+  line-height: 122.01%;
+  font-weight: 700;
+  display: inline-block;
+  width: 1133px;
+  height: 94px;
+}
+.rectangle-icon {
+  position: absolute;
+  top: 2008px;
+  left: 579px;
+  border-radius: 9px;
+  width: 281px;
+  height: 80px;
+}
+.view {
+  text-decoration: none;
+  position: absolute;
+  top: 3216px;
+  left: 578px;
+  letter-spacing: 0.04em;
+  line-height: 122.01%;
+  font-weight: 700;
+  color: inherit;
+  display: inline-block;
+  width: 284px;
+  height: 74px;
+}
+.github-logo-1-icon {
+  position: absolute;
+  top: 3374px;
+  left: 459px;
+  width: 527px;
+  height: 391px;
+  object-fit: cover;
+}
+.rectangle-button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-crimson);
+  position: absolute;
+  top: 3932px;
+  left: 579px;
+  border-radius: var(--br-5xs);
+  width: 283px;
+  height: 81px;
+}
+.see-the-projects,
+.view1 {
+  position: absolute;
+  top: 3946px;
+  left: 578px;
+  letter-spacing: 0.04em;
+  line-height: 122.01%;
+  display: inline-block;
+  width: 284px;
+  height: 74px;
+}
+.see-the-projects {
+  margin: 0;
+  top: 3823px;
+  left: 154px;
+  font-weight: 700;
+  width: 1133px;
+  height: 52px;
+}
+.png-transparent-logo-html-html-icon {
+  position: absolute;
+  top: 1182px;
+  left: 103px;
+  width: 220.06px;
+  height: 215px;
+  object-fit: cover;
+}
+.home-page {
+  position: relative;
+  background-color: #2e3b42;
+  width: 100%;
+  height: 4099px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-17xl);
+  color: var(--color-white);
+  font-family: var(--font-malgun-gothic);
+}

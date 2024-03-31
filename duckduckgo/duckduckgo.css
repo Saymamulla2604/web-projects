@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    list-style: none;
+}
+body
+{
+    margin: 0px;
+    background-color: rgb(31, 30, 30);
+    background-image:url(https://wallpapercave.com/wp/mdEBqye.jpg);
+    font-style: normal;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: lighter;
+}
+.bodyy
+{
+    text-align: center;
+}
+img
+{
+    padding-top: 80px;
+}
+
+h1 
+{
+    color: white;
+
+}
+h2
+{
+    color: white;
+    font-size: 16px;
+    line-height: 30px;
+    
+}
+h3 
+{
+    color: white;
+}
+h4 
+{
+    color: white;
+    font-size: 10px;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+   padding-left: 300px;
+    
+    
+}
+  
+.flex-container > div 
+{
+    background-color: #f1f1f1;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 15px;
+    
+    font-size: 30px;
+    background-color: rgb(47, 47, 47);
+    color: white;
+    
+}
+.flex-container > div > img{
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.flex-container > div > h2{
+      font-size: 21px;
+}
+.flex-container > div > h3{
+    font-size:15px ;
+}
+input[type="text"]
+{
+    width: 700px;
+    height: 45px;
+}
+input[placeholder="Search the web without being tracked"]
+{
+    padding-left: 10px;
+    font-size: 20px;
+    background-color: rgb(46, 44, 44);
+}
+button{
+    background-color: rgb(108, 108, 235);
+    color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 10px;
+}
+.pot > h1
+{
+    font-size: 50px;
+}
+.pott >h2{
+    padding-bottom: 20px;
+}

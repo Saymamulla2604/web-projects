@@ -1,0 +1,211 @@
+*{
+    box-sizing: border-box; 
+    margin: 0;
+ }
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Public+Sans:wght@800&family=Roboto+Slab&display=swap');
+body
+{
+    background-color: rgb(51, 51, 51);
+}
+ img
+ {
+     position: relative;
+     height: 90px;
+     width: 170px;
+     z-index: 1000;
+     left: 4%;
+     top: 3%;
+ }
+ .section-1
+ {
+     background:
+linear-gradient( rgba(0, 0, 0, 0.5), 
+   rgba(0, 0, 0, 0.5)),
+ /* top, transparent black, faked with gradient */ 
+ linear-gradient(to bottom, rgba(0,0,0,0) 60%, #000000),
+ linear-gradient(to top, rgba(0,0,0,0) 80%, rgba(0,0,0,1)),
+
+
+ url(https://assets.nflxext.com/ffe/siteui/vlv3/83e8c151-107d-4e8f-b95a-d2ba99d49bb9/f1ac72e1-5adc-4caf-bceb-e8ec775414ac/IN-en-20230213-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+ font-family: 'Poppins', sans-serif;
+font-family: 'Public Sans', sans-serif;
+     height: 730px;
+     width:1520px;
+ }
+ .middle
+ {
+     color: white;
+     position: relative;
+     text-align: center;
+     top: 20%;
+     /*margin-left: 200px;*/
+     right: 3%;
+ }
+ h1{
+     font-size: 60px;
+     font-weight:bold;
+ }
+ h2
+ {
+     font-weight: lighter;
+     padding-top: 20px;
+     padding-bottom: 20px;
+ }
+ h3
+ {
+     font-weight: lighter;
+     padding-bottom: 15px;
+ }
+ #email
+ {
+     height: 70px;
+     width: 500px;
+ }
+ #button
+ {
+     height: 70px;
+     width:250px;
+     background-color: red;
+     color: white;
+     font-size: 35px;
+     border: none;
+ }
+ .emailsection
+ {
+     display: flex;
+     flex-direction: row;
+     position: relative;
+     left: 25%;
+ }
+ input::placeholder
+ {
+     font-size: 20px;
+     padding-left: 10px;
+ }
+ .arrow {
+border: solid rgb(255, 255, 255);
+border-width:0 4px 4px 0;
+display: inline-block;
+padding: 3px;
+margin-bottom: 8px;
+
+}
+ .right {
+transform: rotate(-45deg);
+-webkit-transform: rotate(-45deg);
+}
+.section-2
+{
+display: flex;
+flex-direction: row;
+align-items: center;
+margin-top: 4px;
+background-color: #000000;
+color: white;
+font-family: 'Poppins', sans-serif;
+font-family: 'Public Sans', sans-serif;
+height: 500px;
+}
+.section-3
+{
+display: flex;
+flex-direction: row;
+align-items: center;
+margin-top: 4px;
+background-color: #000000;
+color: white;
+font-family: 'Poppins', sans-serif;
+font-family: 'Public Sans', sans-serif;
+height: 500px;
+}
+.flex2
+{
+position: relative;
+left: 5%;
+
+}
+.flex1
+{
+padding-left: 200px;
+font-weight: lighter;
+}
+.flex2 img{
+height: 420px;
+width: 630px;
+}
+.section-3
+{
+display: flex;
+flex-direction: row;
+align-items: center;
+margin-top: 4px;
+background-color: #000000;
+color: white;
+font-family: 'Poppins', sans-serif;
+font-family: 'Public Sans', sans-serif;
+}
+.flex3 img
+{
+   height: 350px;
+   width: 440px; 
+}
+.flex3
+{
+padding-left: 200px;
+
+}
+.flex4
+{
+    position: relative;
+    left: 5%;
+    font-weight: lighter;
+}
+.section-6 
+{
+   text-align: center;
+   align-items: center;
+   color: white;
+   margin-top: 10px;
+   background-color: #000000;
+   height: 800px;
+   font-family: 'Poppins', sans-serif;
+font-family: 'Public Sans', sans-serif;
+}
+.section-6 h2
+{
+    font-size: 60px;
+    font-weight:100;
+    padding-top: 80px;
+}
+.f1,.f2,.f3,.f4,.f5,.f6
+{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    height: 60px;
+  
+    background-color: rgb(67, 67, 67);
+    margin-top: 10px;
+    width: 800px;
+    padding-left: 30px;
+    padding-top: 13px;
+    
+}
+.flex6 h1{
+    font-size: 30px;
+}
+.flex6 h3{
+    font-size: 60px;
+}
+.flex6{
+    text-align: center;
+    align-items: center;
+    padding-left: 25%;
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+.h6
+{
+    font-weight: lighter;
+    padding-bottom: 15px;
+}
