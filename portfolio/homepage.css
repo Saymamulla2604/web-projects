@@ -1,0 +1,230 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DK+Uloopet:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    box-sizing: border-box;
+    list-style: none;
+}
+body
+{
+    font-family: 'Poppins', sans-serif;
+    margin: 30px;
+}
+nav
+{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: flex-end;
+    color: rgb(82, 114, 159);
+    font-size: 22px;
+}
+nav ul{
+    cursor: pointer;
+}
+.container
+{
+    display: flex;
+    flex-direction: row;
+    gap :50px;
+    justify-content: center;
+    align-items: center;
+}
+.container1
+{
+    width: 50%;
+    display: inline;
+}
+h2
+{
+    font-weight: 300;
+}
+span
+{
+    font-family: "Playwrite DK Uloopet", cursive;
+    color: rgb(82, 114, 159);
+    font-size: 60px;
+}
+hr
+{
+    width: 1200px;
+    height: 6px;
+    background-color: rgb(82, 114, 159);
+    border-radius: 35%;
+}
+.logo1
+{
+    height: 200px;
+    width: 200px;
+}
+.skillcontainer
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.bottom
+{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(82, 114, 159);
+}
+.logo h2
+{
+    font-weight: 500;
+}
+.top h1
+{
+    font-family: "Playwrite DK Uloopet", cursive;
+    color: rgb(82, 114, 159);
+    font-size: 40px;
+}
+.bottom2
+{
+    display: flex;
+    flex-direction: column;
+}
+.photo
+{
+    height: 300px;
+    width: 400px;
+}
+.certificatescontainer
+{
+    background-image: url(Design.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.certificatesection
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(82, 114, 159);
+}
+.certificatesection img
+{
+    border:rgb(82, 114, 159) solid 2px;
+}
+.experiancesection
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.bottom3
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+.bottom3 p{
+    font-size: 20px;
+}
+.bottom3  h2
+{
+    color:rgb(82, 114, 159) ;
+}
+.experiance1 button
+{
+
+    height: 50px;
+    width: 120px;
+    border: 15%;
+    background-color:rgb(82, 114, 159) ;
+    color: white;
+}
+.experiance1 button a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.proj
+{
+    height: 250px;
+    width: 280px;
+    border-radius: 12%;
+}
+.projectsection
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    
+}
+.bottom4
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.cards1
+{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(82, 114, 159);
+    gap: 20px;
+}
+.bottom4 button{
+    height: 50px;
+    width: 120px;
+    border: 15%;
+    background-color:rgb(82, 114, 159) ;
+    color: white;
+}
+.bottom4 button a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+footer
+{
+    background-color: rgb(15, 33, 39);
+}
+.footer
+{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-around;
+}
+.footer ul{
+    height: 30px;
+    font-size: 30px;
+}
+
