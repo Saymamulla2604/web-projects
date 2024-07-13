@@ -1,0 +1,30 @@
+.text-center{
+    text-align: center;
+    font-weight: bolder;
+  }
+  
+  .bg-red{
+    background: red;
+  }
+  
+  .mx-auto{
+    margin: auto;
+  }
+  
+  .flex{
+    display:flex;
+  } 
+  .flex-col{
+    flex-direction: column;
+  }
+  
+  .items-center{
+    align-items: center;
+  }
+  .container 
+  {
+    background-color: rgb(233, 124, 21);
+    width: 22%;
+    height: 62%;
+    border-radius: 5%;
+  }
