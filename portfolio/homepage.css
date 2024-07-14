@@ -22,6 +22,11 @@ nav
 nav ul{
     cursor: pointer;
 }
+nav ul a{
+    text-decoration: none;
+    color: rgb(82, 114, 159);
+    font-size: 22px;
+}
 .container
 {
     display: flex;
