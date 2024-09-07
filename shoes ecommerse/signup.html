@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="signup.css">
+    <script src="https://kit.fontawesome.com/044c98b845.js" crossorigin="anonymous"></script>
+    <script>
+        var pas1=document.getElementById('pass1');
+        var pas2=document.getElementById('pass2');
+        function check()
+        {
+            if(pas1==pas2)
+            {
+                alert("Please enter same confirmed  password ")
+            }
+        }
+    </script>
+</head>
+<body>
+        <div class="container">
+            <div class="heading">
+                <h1>Sign Up</h1>
+                <h2>Sign Up with your social media account or email address</h2>
+            </div>
+            <div class="username">
+                <h2>Username</h2>
+                <i class="fa-solid fa-user"></i>
+                <input type="text" class="underline-input" placeholder="Type your username">
+            </div>
+            <div class="email">
+                <h2>Email</h2>
+                <i class="fa-solid fa-envelope"></i>
+                <input type="email" class="underline-input" name="" id="" placeholder=" Type your email">
+            </div>
+            <div class="password">
+                <h2>Password</h2>
+                <i class="fa-solid fa-lock"></i>
+                <input type="password" class="underline-input" name="" id="pass1" placeholder=" Type your password ">
+            </div>
+            <div class="password">
+                <h2>Confirm Password</h2>
+                <i class="fa-solid fa-lock"></i>
+                <input type="password" class="underline-input" name="" id="pass2" placeholder=" Confirm password ">
+            </div>
+            <div class="butt">
+                <button type="submit" onclick="check()">Sign Up</button>
+            </div>
+            <div class="option">
+                <h3>Or Sign Up Using</h3>
+            </div>
+            <div class="icons">
+                <img src="https://img.icons8.com/?size=100&id=13912&format=png&color=000000" alt="">
+                <img src="https://img.icons8.com/?size=100&id=5MQ0gPAYYx7a&format=png&color=000000" alt="">
+                <img src="https://img.icons8.com/?size=100&id=V5cGWnc9R4xj&format=png&color=000000" alt="">
+            </div>
+            
+
+        </div>
+   
+</body>
+</html>

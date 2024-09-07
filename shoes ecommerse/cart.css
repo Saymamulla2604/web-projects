@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Playwrite+DK+Uloopet:wght@100..400&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+.heading h1
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 900;
+    margin-top: 5%;
+    margin-bottom: 4%;
+}
+.sections
+{
+    display: flex;
+    flex-direction: row;
+    gap: 8%;
+    
+   padding-left: 8%;
+   padding-right: 4%;
+}
+.section2
+{
+    display: flex;
+    flex-direction:column;
+    gap: 10px;
+}
+.section2 h2{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.product-list
+{
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    margin-bottom: 20px;
+}
+.product-name
+{
+    display: flex;
+    flex-direction:column;
+    gap: 30px;
+}
+.product-name h4
+{
+    font-weight: 400;
+}
+
+.price
+{
+    display: flex;
+    flex-direction:column;
+    gap: 30px;
+}
+.price h4{
+    font-weight: 400;
+}
+.total
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    gap: 230px;
+}
+.total-order
+{
+    width: 120px;
+}
+hr
+{
+    background-color: rgb(255, 255, 255);
+}
+.product1
+{
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+    height: 200px;
+    padding: 20px;
+    
+}
+.img img{
+    height: 150px;
+    width: 200px;
+}
+.part2
+{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+.details
+{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    width: 180px;
+}
+.details h5
+{
+    font-size: 18px;
+    font-weight: 500;
+}
+.details h6
+{
+    font-size: 15px;
+    font-weight: 400;
+}
+.checkout-btn
+{
+    margin-top: 4px;
+}
+button
+{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(154, 174, 247);
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.dropdown select {
+    padding: 5px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.icon {
+    font-size: 24px;
+    cursor: pointer;
+    display: flex;
+    padding-top: 1px;
+}
+
+.icon i {
+    font-size: 24px;
+    color: rgb(3, 29, 160);
+    cursor: pointer;
+}
+
