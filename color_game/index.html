@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coloring Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <div id="container">
+    <div id="palette">
+      <button class="color-button" style="background-color: red;" data-color="red"></button>
+      <button class="color-button" style="background-color: blue;" data-color="blue"></button>
+      <button class="color-button" style="background-color: green;" data-color="green"></button>
+      <button class="color-button" style="background-color: yellow;" data-color="yellow"></button>
+      <button class="color-button" style="background-color: orange;" data-color="orange"></button>
+      <button class="color-button" style="background-color: purple;" data-color="purple"></button>
+      <button class="color-button" style="background-color: pink;" data-color="pink"></button>
+      <button class="color-button" style="background-color: brown;" data-color="brown"></button>
+      <button class="color-button" style="background-color: black;" data-color="black"></button>
+      <button class="color-button" style="background-color: white; border: 2px solid black;" data-color="white">Eraser</button>
+    </div>
+    <canvas  id="colorCanvas" width="1000px" height="500px"></canvas>
+  </div>
+  
+  <!-- Add brush size slider -->
+  <div id="brush-controls">
+    <label for="brushSize">Brush Size: </label>
+    <input type="range" id="brushSize" min="1" max="50" value="5">
+    <span id="brushValue">5</span>
+  </div>
+
+  <button id="clearCanvas">Clear Drawing</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
